@@ -1,0 +1,214 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 7 version
+*/
+
+
+@media  screen and (-webkit-min-device-pixel-ratio:0) and (max-width:1920px){
+    .sect01 {padding: 0.6rem 0;}
+    .contCamp{width: 100%;}
+    .padSilder{padding: 0;}
+    .slider-ini img{width: 50%;max-width: 50%;min-width: 50%;margin:0 auto}
+}
+@media  screen and (-webkit-min-device-pixel-ratio:0) and (max-width:1681px){    
+    .share{right: 22.9%;}
+}
+@media  screen and (-webkit-min-device-pixel-ratio:0) and (max-width:1441px){
+    .destacado {font-size: 1.2rem;line-height: 2.1rem;}
+    .globo{width: 12rem;}
+    .slider-ini img{width: 60%;max-width: 60%;min-width: 60%;}
+    .contPreven {height: 20rem;}
+    .sect01 {padding: 0;}
+    .share{right: 18.1%;}
+}
+@media  screen and (-webkit-min-device-pixel-ratio:0) and (max-width:1400px){
+    .sect05{height: auto;}
+    .textSintomas h4 {font-size: 16px;}
+    .mensaje h6 {font-size: 10px;}
+    .rrss{left: -100px;}
+    .share{right: 21%;}
+    .contPreven {height: 23rem;}
+    .js-padVidAcciones{padding: 0px 60px 70px 60px;}
+    .contPrevenText{height: auto;}    
+ }
+@media  screen and (-webkit-min-device-pixel-ratio:0) and (max-width:1369px){
+    .slider-ini img{width: 50%;max-width: 50%;min-width: 50%;}
+    .modalVid{padding: 9.5rem 0px;}
+}
+@media  screen and (-webkit-min-device-pixel-ratio:0) and (max-width:1280px){
+    .contCamp {width: 90%;}    
+    .soloMob {display: none;}
+    .soloDesk {display: block;}
+}
+@media  screen and (-webkit-min-device-pixel-ratio:0) and (max-width:1025px){
+    .contTrataText .texCorrido{font-size: 13px;line-height: 20px;}
+    .icon svg{width: 100%;}
+    .destacado{font-size: 19px;line-height: 1.5rem;}
+    .texCorrido {font-size: 15px;line-height: 30px;}
+    .margeAltoBajo{margin: 30px 0;}
+    .tituVid {font-size: 2.7rem;}
+    .subTiVid{font-size: 12px;}
+    .eigtheen {width: 100%;}
+    .contVidAcciones{width: auto;display: inline-block;margin: 0 8px;}
+    .iconVidAcciones{width: 5%;margin: 4.1% 7.9%;}
+    .logo {padding: 10px;width: 120px;height: auto;-webkit-box-shadow: none;box-shadow: none;}
+    .soloMob {display: block;}
+    .soloDesk {display: none;}
+    .contMenu{width: 100%;text-align: center;height: auto;-webkit-box-pack: center;-ms-flex-pack: center;justify-content: center;display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-align: center;-ms-flex-align: center;align-items: center;background: #19397F;padding: 20px;top: 2.5rem;position: relative;}
+    .hamburguer{position: absolute;font-size: 4rem;right: 4rem;top: 2rem;}
+    .sinNada{margin: 0;padding: 0;}
+    .barNav{display: none;}
+    ul{padding: 0;}
+    ul li{width: 100%;margin: 10px 0;}
+    .textNav {margin:0;color: #fff;}
+    .mensaje{padding: 10px 0;height: auto;}
+    .hambu{height: 72px;}
+    #js-menu{display: none;}
+    .rrss{left: auto;-webkit-transform: rotate(0deg);-ms-transform: rotate(0deg);transform: rotate(0deg);bottom: 0;top: inherit;width: 100%;text-align: center;border-radius: 0px;}
+    .iconRrss{-webkit-transform: rotate(0deg);-ms-transform: rotate(0deg);transform: rotate(0deg);}
+    .partBlanca {background: #fff;width: 60.5%;}
+    .partRoja {border-radius: 0;width: 39.1%;}
+    .js-padVidAcciones{padding: 0px 60px 100px 60px;}
+    .padR-text{padding-right: 0;}
+    .logoFoo {margin-bottom: 30px;}
+    .share{left: inherit;right: 0;width: 100%;border-radius: 0;bottom: 67px;top: inherit;padding: 5px 0;}
+    .globo{margin-bottom: 1rem;}
+    .legal{font-size: 14px;}
+    .contIconSintomas{width: 5rem;}
+    .textSintomas h4{font-size: 1.5rem;}
+    .contPreven {height: 22rem;}
+    .mano{width: 100%;}
+    .logoFoo h6{font-size: 0.8rem;}
+    nav{height: 7.5rem;}
+    .iconVid{top: 28%;}
+    .slider-ini img{width: 40%;max-width: 40%;min-width: 40%;}
+    .sect01{height: auto;padding: 0.6rem 0;}
+}
+@media  screen and (-webkit-min-device-pixel-ratio:0) and (max-width:912px){
+    .contVidAcciones{margin: 0 7px;}
+    .contCamp {width: 82.4%;height: auto;}
+    .globo {width: 10rem;}
+    .partRoja {width: 39%;}    
+    .share{bottom: 67px;}
+}
+@media  screen and (-webkit-min-device-pixel-ratio:0) and (max-width:820px){
+    .contCamp {width: 80%;top: 0;height: auto;}
+    .ninteen, .eigtheen{width: auto;}
+    .texCorrido{text-align: center;}
+    .tituVid {font-size: 19px;}
+    .subTiVid{letter-spacing: 3px;}
+    .subSect04a{padding: 30px;}
+    .tituTrata{font-size: 15px;margin: 10px 0;}
+    .contTrataText .texCorrido{text-align: left;}
+    .icon{display: block;}
+    .contEjes{display: block;}
+    .contTextIcon{width: 100%;}
+    .contVidAcciones{margin: 0 6px;}
+    .textVidAcciones .titus{font-size: 2.8rem;}
+    .partRoja {border-radius: 0;width: 38.9%;}
+    .titu-slider{padding: 2rem 0 0 0;}
+    .destacado{font-size:1rem;}
+    .globo {width: 7rem;}
+    .legal {font-size: 0.6rem;}
+    .tituVid {font-size: 2.2rem;}
+    .sect02{padding: 0;}
+    .slider-ini img{width: 80%;max-width: 80%;min-width: 80%;}    
+}
+@media  screen and (-webkit-min-device-pixel-ratio:0) and (max-width:768px){
+    .textNav{font-size: 1.6rem;}
+    ul li{margin: 20px 0;}
+    .marge-vid-cont-text{margin: 0;}
+    .sect01 {padding: 0.7rem 0;}
+}
+@media  screen and (-webkit-min-device-pixel-ratio:0) and (max-width:765px){
+    .contEjes{display: block;text-align: center;}
+    .icon{width: 100%;}
+    .contTextIcon{width: 100%;}
+    .titus {text-align: center;}
+    .textVidAcciones, .imgVidAcciones, .contVidAcciones{width: 100%;}
+    .alignTextLeft{text-align: left;}
+    .footer{padding: 30px;}
+    .logoFoo{width: 100%;padding:0;}
+    .textSintomas h4 {font-size: 14px;}
+    .subSect04a{padding: 20px;}
+    .contItemsSintomas{margin-bottom: 30px;}
+    .btnVolver{margin: 20px auto 0 auto;}
+    .contPrevenImg{margin: 20px 0 0 0;}
+    .contTrataText .titus{text-align: left;}
+    .contTrataText .texCorrido{text-align: left;}
+    .tituTrata{font-size: 20px;margin: 10px 0;}
+    .js-padVidAcciones{padding: initial;}
+    .txtLegal{font-size: 20px;}
+    .legales {top: 160px;}
+    .sect01 {padding: 0.6rem 0;}
+}
+@media  screen and (-webkit-min-device-pixel-ratio:0) and (max-width:541px){
+    .contCamp {height: 280px;}
+    .destacado{text-align: center;line-height: 40px;font-size: 20px;margin-top: 20px;}
+    .margeAltoBajo{margin: 40px;}
+    .contVid{margin: 0;}
+    .imgDesk{display:none;}
+    .imgMob{display:block;}
+    .legal{text-align: center;margin-bottom: 30px;}
+    .iconVidAcciones{width: 20%;margin: 17.2% 33.4%;}
+    .sect02{padding: 0;}
+    .tituVid {font-size: 2.8rem;}
+    .globo {width: 11rem;margin: 0 auto;padding: 2.5rem 0 0 0;}
+    .contPrevenImg{margin:20px auto 0 auto;}
+    .contPreven{height: auto;}
+    .border-rigth-red {border-right: 0px solid #ED1B24;}
+    .contTrataText .titus {text-align: center;}
+    .textSintomas h4 {font-size: 1.5rem;}
+    .logo{left: 2rem;}
+    .footer {padding: 30px 10px 80px 10px;}
+    .padAcciones{padding: 3rem 0rem;}
+    .textVidAcciones .titus {font-size: 2rem;}
+    .tituVid {font-size: 2rem;}
+    .titus{font-size: 2.3rem;}
+    .titu-slider{padding: 0;}
+    .contCamp{height: auto;width: 100%;}
+    .img-desk-slider{display: none;}
+    .img-mob-slider{display: block;}
+    .slider-ini img{width: 100%;max-width: 100%;min-width: 100%;}
+    .sect01 {padding: 0;}
+    .partRoja {width: 38.7%;}    
+}
+@media  screen and (-webkit-min-device-pixel-ratio:0) and (max-width:500px){
+    
+    .logoFoo h6 {font-size: 0.5rem;}
+    .sect01 {padding: 0.6rem 0;}
+}
+@media  screen and (-webkit-min-device-pixel-ratio:0) and (max-width:415px){
+    p {font-size: 13px;}    
+    .contVidAcciones{padding: 10px 0;margin: 0;}
+    .destacado{line-height: 30px;font-size: 15px;}
+    .contPrevenTextcor h4, .contTrataText h4:nth-child(2){font-size: 0.8rem;}
+    .partRoja {width: 38.4%;}
+    .share{bottom: 80px;}
+}
+@media  screen and (-webkit-min-device-pixel-ratio:0) and (max-width:375px){
+    .iconShare{width: 45px;display: inline-block;}    
+    .sect01 {padding:0;}    
+}
+@media  screen and (-webkit-min-device-pixel-ratio:0) and (max-width:360px){
+    .partBlanca h5 {padding: 0px;}
+    p {font-size: 12px;}
+    .partRoja {width: 38.3%;}  
+}
+@media  screen and (-webkit-min-device-pixel-ratio:0) and (max-width:321px){
+    .partBlanca{width: 45%;height: auto;text-align: left;position: relative;vertical-align: middle;}
+    .partRoja{width: 53.6%;}
+}
+@media  screen and (-webkit-min-device-pixel-ratio:0) and (max-width:280px){
+    .iconVidAcciones{margin: 13.3% 27.3%;}
+    .logoFoo {margin-bottom: 80px;}
+    p {font-size: 10px;}
+    .txtLegal{font-size: 14px;}
+    .contPrevenImg, .contTrataImg{width: 5rem;}
+    .textSintomas h4 {font-size: 0.9rem;}
+    .sect01 {padding: 0.6rem 0;}
+    .partRoja{width: 53.5%;}
+    .footer {padding: 30px 10px 20px 10px;}
+}
