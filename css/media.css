@@ -79,6 +79,8 @@
     .contIconSintomas{width: 5rem;}
     .textSintomas h4{font-size: 1.5rem;}
     .contPreven {height: 22rem;}
+    .textExp{font-size: 1.2rem;line-height: 1.8rem;}
+    .w-80{width: auto;}
     .mano{width: 100%;}
     .logoFoo h6{font-size: 0.8rem;}
     nav{height: 7.5rem;}
@@ -161,6 +163,7 @@
     .contPrevenImg{margin:20px auto 0 auto;}
     .contPreven{height: auto;}
     .border-rigth-red {border-right: 0px solid #ED1B24;}
+    .contTrata{height: auto;}
     .contTrataText .titus {text-align: center;}
     .textSintomas h4 {font-size: 1.5rem;}
     .logo{left: 2rem;}
@@ -172,7 +175,7 @@
     .titus{font-size: 2.3rem;margin: 0;}
     .textExp{font-size: .9rem;line-height: normal;}
     .titu-slider{padding: 0;}
-    .btnVerMas{margin-bottom: 35px;}
+    .btnVerMas{margin-bottom: 35px  ;}
     .contCamp{height: auto;width: 100%;}
     .img-desk-slider{display: none;}
     .img-mob-slider{display: block;}
@@ -185,6 +188,9 @@
     
     .logoFoo h6 {font-size: 0.5rem;}
     .sect01 {padding: 0.6rem 0;}
+    .contPreven{margin-top: 20px;}
+    .contTrata{margin-top: 20px;}
+    .textTrata p {padding: 0!important;}
 }
 @media  screen and (-webkit-min-device-pixel-ratio:0) and (max-width:415px){
     p {font-size: 13px;}    
@@ -206,6 +212,7 @@
 @media  screen and (-webkit-min-device-pixel-ratio:0) and (max-width:321px){
     .partBlanca{width: 45%;height: auto;text-align: left;position: relative;vertical-align: middle;}
     .partRoja{width: 53.6%;}
+    .textSintomas{margin-top: 15px;}
 }
 @media  screen and (-webkit-min-device-pixel-ratio:0) and (max-width:280px){
     .iconVidAcciones{margin: 13.3% 27.3%;}

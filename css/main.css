@@ -26,6 +26,7 @@ ul li{display: inline-block;font-weight: bold;}
 .home{top: 0px;}
 .activeNav{color:#ED1B24;}
 .justify-content-evenly{justify-content: space-evenly;}
+.margin-auto{margin-right: auto!important;margin-left: auto!important;}
 /**MENU**/
 nav{position: fixed;width: 100%;z-index: 20;background: #fff;}
 .contMenu{text-align: right;height: 80px;-webkit-box-pack: right;-ms-flex-pack: right;justify-content: right;display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-align: center;-ms-flex-align: center;align-items: center;}
@@ -38,9 +39,11 @@ nav{position: fixed;width: 100%;z-index: 20;background: #fff;}
 .textNav{margin: 0 10px;font-size: 16px;color:#19397F;}
 .textNav:hover li{color:#ED1B24;}
 .textNav:active li{color:#ED1B24;}
+.lh-1{line-height: 2.5rem;}
+.sombra{-webkit-box-shadow: 0px 14px 43px -10px rgba(0, 0, 0, 0.39);-moz-box-shadow: 0px 14px 43px -10px rgba(0, 0, 0, 0.39);box-shadow: 0px 14px 43px -10px rgba(0, 0, 0, 0.39);}
 
 /**CONT01**/
-.sect01{background: url('../img/bg-sliderNuevo.png') 0 0 no-repeat;background-size: cover;height: auto;position: relative;top: 7.5rem;padding-bottom: 5rem;}
+.sect01{background: url('../img/bg-sliderNuevo3.png') 0 0 no-repeat;background-size: cover;height: auto;position: relative;top: 7.5rem;padding-bottom: 5rem;}
 .mano, .textoCam{position: relative;}
 .mano{z-index: 15;width: 100%;}
 .textoCam{z-index: 14;}
@@ -153,9 +156,11 @@ br::-moz-selection, p::-moz-selection, h4::-moz-selection, i::-moz-selection, h5
 .imgMob{display:none;}
 /**CONT04.1**/
 .subSect04a{background-color: #fff;height: auto;position: relative;top: 111px;padding: 50px;}
-.btnVolver{padding: 3px;background: #ED1B24;width: 141px;border-radius: 5px;height: 28px;margin: 0 auto;line-height: 0px;color: #fff;}
+.btnVolver{padding: 3px;background: #ED1B24;color: #fff;width: 141px;border-radius: 5px;height: 28px;margin: 0 auto;line-height: 0px;}
+.btnVolver a{color: #fff;}
 .btnVolver h5{margin:0;font-size: 18px;letter-spacing: 3px;font-weight: 800;}
 .btnVolver:hover{background-color: #fff;color:#ED1B24;border:1px solid #ED1B24;-webkit-transition:cubic-bezier(0.075, 0.82, 0.165, 1);-o-transition:cubic-bezier(0.075, 0.82, 0.165, 1);transition:cubic-bezier(0.075, 0.82, 0.165, 1)}
+.btnVolver a:hover{color: #ED1B24;}
 .subSect04a h4{margin-bottom: 0;}
 .prev-p{font-weight: 500;font-size: 24px;}
 .contIconSintomas{text-align: center;border-radius: 5px 5px 0 0;width: 8rem;margin: 0 auto;}
@@ -173,13 +178,14 @@ i{font-size: 14px;}
 .contPrevenImg{width: 8rem;text-align: center;margin: 0 auto 1rem auto;}
 /**CONT04.3**/
 .contTrata{text-align: center;height: 17rem;}
-.contTrataImg{width: 8rem;;margin: 0 auto;}
+.contTrataImg{width: 8rem;margin: 0 auto;}
 .tituTrata{padding: 0 0 20px;}
+.contTrataText {padding: 20px 0;}
 .contTrataText h4:nth-child(1){font-size: 1.5rem;font-family: 'Staatliches', cursive;text-transform: uppercase;line-height: 18px;}
 .contTrataText h4:nth-child(2){font-size: 1rem;text-align: center;line-height: 1.2rem;}
 .textTrata p{text-align: center;font-size: 1.3rem;}
-.textTrata p:nth-child(1){padding: 50px 10rem 0;}
-.textTrata p:nth-child(2){padding: 0 200px;}
+.textTrata p:nth-child(1){padding: 30px 40px 20px;}
+.textTrata p:nth-child(2){padding: 0 40px;}
 /**CONT05**/
 .sect05{height: auto;position: relative;top: 7rem;}
 .border-red{width: 90%;background-color: #ED1B24;height: 2px;}
@@ -205,6 +211,7 @@ i{font-size: 14px;}
 .partBlanca h5, .partAzul h5{margin: 0;padding: 8px;font-size: 10px;font-weight: 800;text-transform: uppercase;}
 .share{display:none;position: fixed;width: 11rem;height: auto;background: #ED1B24;top: 7.5rem;right: 26.4%;z-index: 18;text-align: center;border-radius: 0 0 0.3rem 0.3rem;-webkit-box-shadow: 0 4px 15px rgb(0 0 0 / 20%);box-shadow: 0 4px 15px rgb(0 0 0 / 20%);}
 .iconShare{width: 35px;display: inline-block;}
+.contFaqImg{width: 2rem;text-align: center;margin: 0 auto 1rem auto;}
 /**FOOTER**/
 .footer{position: relative;top:111px;}
 .footer-pad{padding: 100px 0;}
@@ -214,5 +221,5 @@ i{font-size: 14px;}
 .legales{background: #fff;position: relative;top: 200px;margin-bottom: 100px;}
 p{text-align: justify;}
 /**Interacciones**/
-#js-sintomas,#js-prevencion,#js-tratamiento,#js-ModVid01,#js-ModVid02{display:none;}
+#js-sintomas,#js-prevencion,#js-tratamiento,#js-ModVid01,#js-ModVid02,#video1,#video2{display:none;}
 #js-mano02,#js-mano03,#js-mano04,#js-mano05,#js-mano06,.splide__arrow,.splide__arrow--prev,.splide__arrow--next{display: none;}
