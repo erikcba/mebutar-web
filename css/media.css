@@ -7,7 +7,7 @@
 
 
 @media  screen and (-webkit-min-device-pixel-ratio:0) and (max-width:1920px){
-    .sect01 {padding: 0.6rem 0;}
+    .sect01 {padding-bottom: 3rem;}
     .contCamp{width: 100%;}
     .padSilder{padding: 0;}
     .slider-ini img{width: 50%;max-width: 50%;min-width: 50%;margin:0 auto}
@@ -20,7 +20,7 @@
     .globo{width: 12rem;}
     .slider-ini img{width: 60%;max-width: 60%;min-width: 60%;}
     .contPreven {height: 20rem;}
-    .sect01 {padding: 0;}
+    .sect01 {padding-bottom: 2rem;}
     .share{right: 18.1%;}
 }
 @media  screen and (-webkit-min-device-pixel-ratio:0) and (max-width:1400px){
@@ -85,6 +85,8 @@
     .iconVid{top: 28%;}
     .slider-ini img{width: 40%;max-width: 40%;min-width: 40%;}
     .sect01{height: auto;padding: 0.6rem 0;}
+    .imagenes-sect2-5 img{display: none;}
+    .imagenes-sect2-5 .texto{width: 90%;}
 }
 @media  screen and (-webkit-min-device-pixel-ratio:0) and (max-width:912px){
     .contVidAcciones{margin: 0 7px;}
@@ -120,7 +122,7 @@
     .textNav{font-size: 1.6rem;}
     ul li{margin: 20px 0;}
     .marge-vid-cont-text{margin: 0;}
-    .sect01 {padding: 0.7rem 0;}
+    .sect01 {padding-bottom: 3rem;}
 }
 @media  screen and (-webkit-min-device-pixel-ratio:0) and (max-width:765px){
     .contEjes{display: block;text-align: center;}
@@ -142,14 +144,14 @@
     .js-padVidAcciones{padding: initial;}
     .txtLegal{font-size: 20px;}
     .legales {top: 160px;}
-    .sect01 {padding: 0.6rem 0;}
+    .sect01 {padding-bottom: 3rem;}
 }
 @media  screen and (-webkit-min-device-pixel-ratio:0) and (max-width:541px){
     .contCamp {height: 280px;}
     .destacado{text-align: center;line-height: 40px;font-size: 20px;margin-top: 20px;}
     .margeAltoBajo{margin: 40px;}
     .contVid{margin: 0;}
-    .imgDesk{display:none;}
+    .imgDesk, .img-desk-slider{display:none!important;}
     .imgMob{display:block;}
     .legal{text-align: center;margin-bottom: 30px;}
     .iconVidAcciones{width: 20%;margin: 17.2% 33.4%;}
@@ -165,14 +167,18 @@
     .footer {padding: 30px 10px 80px 10px;}
     .padAcciones{padding: 3rem 0rem;}
     .textVidAcciones .titus {font-size: 2rem;}
-    .tituVid {font-size: 2rem;}
-    .titus{font-size: 2.3rem;}
+    .subTiVid{font-size: 1.3rem;}
+    .w-80{width: auto;}
+    .titus{font-size: 2.3rem;margin: 0;}
+    .textExp{font-size: .9rem;line-height: normal;}
     .titu-slider{padding: 0;}
+    .btnVerMas{margin-bottom: 35px;}
     .contCamp{height: auto;width: 100%;}
     .img-desk-slider{display: none;}
     .img-mob-slider{display: block;}
     .slider-ini img{width: 100%;max-width: 100%;min-width: 100%;}
     .sect01 {padding: 0;}
+    .sect01 .d-flex{flex-direction: column;}
     .partRoja {width: 38.7%;}    
 }
 @media  screen and (-webkit-min-device-pixel-ratio:0) and (max-width:500px){

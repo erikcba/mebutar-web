@@ -40,7 +40,7 @@ nav{position: fixed;width: 100%;z-index: 20;background: #fff;}
 .textNav:active li{color:#ED1B24;}
 
 /**CONT01**/
-.sect01{background: url('../img/bg-sliderNuevo.png') 0 0 no-repeat;background-size: cover;height: 65svh;position: relative;top: 7.5rem;}
+.sect01{background: url('../img/bg-sliderNuevo.png') 0 0 no-repeat;background-size: cover;height: auto;position: relative;top: 7.5rem;padding-bottom: 5rem;}
 .mano, .textoCam{position: relative;}
 .mano{z-index: 15;width: 100%;}
 .textoCam{z-index: 14;}
@@ -110,7 +110,7 @@ br::-moz-selection, p::-moz-selection, h4::-moz-selection, i::-moz-selection, h5
 
 /**CONT2.5**/
 .sect2-5{background: linear-gradient(180deg, #7D0003 0%, #C70304 100%);height: auto;position: relative;top: 6.9rem;padding: 0;}
-.texto{color: rgba(255, 255, 255, 1); font-weight: 500;width: 50%;margin-right: auto;margin-left: auto;padding:90px 80px;}
+.texto{color: rgba(255, 255, 255, 1); font-weight: 500;width: 50%;margin-right: auto;margin-left: auto;padding:90px 0;}
 .imagenes-sect2-5 {justify-content: space-between;align-items: self-end;}
 .imagenes-sect2-5 img {max-width: 300px; min-width: auto;max-height: 300px;min-height: auto;}
 
@@ -123,7 +123,7 @@ br::-moz-selection, p::-moz-selection, h4::-moz-selection, i::-moz-selection, h5
 .contVid:hover .contImgVid .iconVid{opacity: 0;-webkit-transition: cubic-bezier(0.4, 0, 1, 1) 0.2s;-o-transition: cubic-bezier(0.4, 0, 1, 1) 0.2s;transition: cubic-bezier(0.4, 0, 1, 1) 0.2s;}
 .subTiVid{font-weight: 550;font-size: 1.5rem;text-transform: uppercase;letter-spacing: 0.3em;}
 .tituVid{font-size: 4rem;font-weight: 500;text-transform: uppercase;font-family: 'Staatliches', cursive;color: #333333;}
-.textExp{font-size: 1.5rem;line-height: 2.8rem;}
+.textExp{font-size: 1.5rem;line-height: 2.8rem;text-align: left!important;}
 .w-80{width: 80%;}
 .btnVerMas a{font-weight: 700;;color: rgba(237, 27, 36, 1);font-size: 1.2rem; font-family:"Montserrat", sans-serif ;}
 .btn-outline-danger{border-color: rgba(237, 27, 36, 1);padding: 12px 70px;line-height: 25px;}
@@ -214,5 +214,5 @@ i{font-size: 14px;}
 .legales{background: #fff;position: relative;top: 200px;margin-bottom: 100px;}
 p{text-align: justify;}
 /**Interacciones**/
-#js-sintomas,#js-prevencion,#js-tratamiento,#js-masSect,#js-descSect,#js-conocSect,#js-ModVid01,#js-ModVid02{display:none;}
-#js-mano02,#js-mano03,#js-mano04,#js-mano05,#js-mano06{display: none;}
+#js-sintomas,#js-prevencion,#js-tratamiento,#js-ModVid01,#js-ModVid02{display:none;}
+#js-mano02,#js-mano03,#js-mano04,#js-mano05,#js-mano06,.splide__arrow,.splide__arrow--prev,.splide__arrow--next{display: none;}

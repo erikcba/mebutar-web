@@ -1,22 +1,3 @@
-/////////BTN-MEDICO-RESPONDE
-$("#js-masOpen").click(function(){
-   $("#parasitosisSect").hide().css("transition","0.2s");
-   $("#js-masSect").show();
-});
-$("#js-descOpen").click(function(){
-   $("#parasitosisSect").hide().css("transition","0.2s");
-   $("#js-descSect").show();
-});
-$("#js-conocOpen").click(function(){
-   $("#parasitosisSect").hide().css("transition","0.2s");
-   $("#js-conocSect").show();
-});
-
-////////BTN-VOLVER
-$(".btnVolver").click(function(){
-   $("#js-masSect, #js-descSect,#js-conocSect").hide().css("transition","0.2s");
-   $("#parasitosisSect").show().css("transition","0.2s");
-});
 
 ////////BTN-SINTOMAS
 $("#js-sintoOpen, #js-sintoOpen-menu").click(function(){
@@ -38,6 +19,7 @@ $(".btnVolver").click(function(){
    $("#js-seleAcc").show().css("transition","0.2s");
 });
 
+
 ////////VIDEOS-PARASITOSIS
 
 document.getElementById("video1").style.display = "none";
@@ -45,6 +27,7 @@ document.getElementById("video2").style.display = "none";
 document.getElementById("video3").style.display = "none";
 document.getElementById("video4").style.display = "none";
 document.getElementById("video5").style.display = "none";
+
 
 $("#js-vidOpen-01").click(function(){
    $("#js-ModVid01").show(500);
