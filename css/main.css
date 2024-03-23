@@ -163,7 +163,7 @@ br::-moz-selection, p::-moz-selection, h4::-moz-selection, i::-moz-selection, h5
 .btnVolver a:hover{color: #ED1B24;}
 .subSect04a h4{margin-bottom: 0;}
 .prev-p{font-weight: 500;font-size: 24px;}
-.contIconSintomas{text-align: center;border-radius: 5px 5px 0 0;width: 8rem;margin: 0 auto;}
+.contIconSintomas{text-align: center;border-radius: 5px 5px 0 0;width: 8rem;margin: 20px auto;}
 .contIconSintomas svg{width: 100%;}
 .textSintomas{height: 100px;padding: 15px 0;-webkit-box-align: center;-ms-flex-align: center;align-items: center;-webkit-box-pack: center;-ms-flex-pack: center;justify-content: center;-ms-flex-line-pack: baseline;align-content: baseline;display: -webkit-box;display: -ms-flexbox;display: flex;}
 .textSintomas h4{font-size: 1.5rem;font-family: 'Staatliches', cursive;}
@@ -211,7 +211,20 @@ i{font-size: 14px;}
 .partBlanca h5, .partAzul h5{margin: 0;padding: 8px;font-size: 10px;font-weight: 800;text-transform: uppercase;}
 .share{display:none;position: fixed;width: 11rem;height: auto;background: #ED1B24;top: 7.5rem;right: 26.4%;z-index: 18;text-align: center;border-radius: 0 0 0.3rem 0.3rem;-webkit-box-shadow: 0 4px 15px rgb(0 0 0 / 20%);box-shadow: 0 4px 15px rgb(0 0 0 / 20%);}
 .iconShare{width: 35px;display: inline-block;}
-.contFaqImg{width: 2rem;text-align: center;margin: 0 auto 1rem auto;}
+.contFaqImg{width: 2.5rem;text-align: center;margin-right: 1rem;}
+.faqText{font-size: 1.6rem!important;font-weight: bold!important;text-transform: uppercase;color: #565656;}
+
+/*ACORDEON*/
+.accordion{--bs-accordion-active-bg:#ffffff; --bs-accordion-active-color: none; --bs-accordion-btn-focus-box-shadow: none;--bs-accordion-btn-bg:none;margin-top: 50px;gap: 30px;}
+.accordion-item {border: none;}
+.accordion-flush>.accordion-item {border-radius: 8px;}
+.accordion-button{padding: 1.5rem 3rem;}
+.accordion-body{padding: 0 3rem 1.5rem;font-size: 1.5rem;line-height: 2rem;}
+.accordion-body p{width: 100%;}
+.accordion-flush>.accordion-item>.accordion-collapse {width: 100%;}
+.accordion-button:not(.collapsed){background-color: #ffffff00;box-shadow: none;}
+.accordion-button::after{width: 1.8rem;background-size: 1.8rem;color: #19397F;background-image: url('../img/flecha.png');transition: transform .4s ease-in-out;}
+.accordion-button:not(.collapsed)::after{background-image:url('../img/flecha.png') ;}
 /**FOOTER**/
 .footer{position: relative;top:111px;}
 .footer-pad{padding: 100px 0;}
@@ -221,5 +234,5 @@ i{font-size: 14px;}
 .legales{background: #fff;position: relative;top: 200px;margin-bottom: 100px;}
 p{text-align: justify;}
 /**Interacciones**/
-#js-sintomas,#js-prevencion,#js-tratamiento,#js-ModVid01,#js-ModVid02,#video1,#video2{display:none;}
+#js-sintomas,#js-prevencion,#js-tratamiento,#js-ModVid01,#js-ModVid02,#video1,#video2,#video3,#video4,#video5{display:none;}
 #js-mano02,#js-mano03,#js-mano04,#js-mano05,#js-mano06,.splide__arrow,.splide__arrow--prev,.splide__arrow--next{display: none;}

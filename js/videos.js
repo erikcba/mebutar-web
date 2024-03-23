@@ -22,11 +22,11 @@ $(".btnVolver").click(function(){
 
 ////////VIDEOS-PARASITOSIS
 
-// document.getElementById("video1").style.display = "none";
-// document.getElementById("video2").style.display = "none";
-// document.getElementById("video3").style.display = "none";
-// document.getElementById("video4").style.display = "none";
-// document.getElementById("video5").style.display = "none";
+ //document.getElementById("video1").style.display = "none";
+ //document.getElementById("video2").style.display = "none";
+ //document.getElementById("video3").style.display = "none";
+ //document.getElementById("video4").style.display = "none";
+ //document.getElementById("video5").style.display = "none";
 
 
 $("#js-vidOpen-01").click(function(){
