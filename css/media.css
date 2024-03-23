@@ -196,6 +196,12 @@
     .textTrata p {padding: 0!important;}
     .column-mob{flex-direction: column;gap: 20px;}
     .masSect{gap: 30px;}
+    .accordion-button{padding: 0;}
+    .accordion-body{font-size: 1rem;line-height: 1.5rem;}
+    .accordion-body p{font-size: 1rem;line-height: 1.5rem;}
+    .faqText{font-size: 1rem!important;line-height: 1.5rem!important;}
+    .accordion-button::after{width: 1rem;background-size: 1rem;}
+    .accordion-flush>.accordion-item>.accordion-header .accordion-button, .accordion-flush>.accordion-item>.accordion-header .accordion-button.collapsed{padding:20px 0;}
 
 }
 @media  screen and (-webkit-min-device-pixel-ratio:0) and (max-width:415px){
