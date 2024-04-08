@@ -8,13 +8,13 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>¿Qué es la parasitosis intestinal?</title>
+    <title>Preguntas Frecuentes</title>
     <!--FAVICON-->
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="img/favicon-32x32.png"
+      href="../img/favicon-32x32.png"
     />
     <!-- SLIDER -->
     <link
@@ -52,7 +52,7 @@
         <div class="row justify-content-xl-center justify-content-sm-start">
           <div class="col-md-1 col-2 sinNada">
             <div class="logo text-center soloDesk">
-              <a href="#home">
+              <a href="../index.html">
                 <img src="../img/logo.png" alt="" />
               </a>
             </div>
@@ -60,7 +60,7 @@
           <!--LOGO-MOBILE-->
           <div class="col-11 soloMob">
             <div class="logo text-center">
-              <a href="#home">
+              <a href="../index.html">
                 <img src="../img/logo.png" alt="" />
               </a>
             </div>
@@ -95,7 +95,7 @@
                   ><li class="" id="js-trataOpen-menu">Tratamiento</li></a
                 >
                 <li class="barNav">|</li>
-                <a href="accionesView.html" class="textNav js-btnsub"
+                <a href="accionesView.html#acciones" class="textNav js-btnsub"
                   ><li class="">Acciones Sociales</li></a
                 >
               </ul>
@@ -448,7 +448,7 @@
           </div>
         </div>
       </div>
-      <div class="container-fluid d-flex">
+      <div class="container-fluid d-flex justify-content-center">
         <div
           class="row sinNada justify-content-center align-self-center col-8 col-sm-4"
         >
@@ -462,6 +462,10 @@
               />
               <img class="img-mob-slider" src="../img/titu-mob.png" alt="" />
             </div>
+            <div class="titu-slider">
+              <img class="img-desk-slider" id="image-anima" src="../img/subTitu-slider.png" alt="">
+              <img class="img-mob-slider" src="../img/subTitu-slider.png" alt="">
+          </div>
           </div>
         </div>
         <div class="col-10 col-sm-6 align-self-center padSilder">
@@ -721,21 +725,17 @@
       AOS.init();
     </script>
     <!-- SLIDER -->
-    <script src="../js/slider.js"></script>
+    
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
     <script>
-      var splide = new Splide(".splide", {
-        type: "fade",
-        rewind: true,
-        autoplay: "start",
-      });
-      splide.mount();
-    </script>
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        var splide = new Splide(".splide");
-        splide.mount();
-      });
+      document.addEventListener( 'DOMContentLoaded', function() {
+            var splide = new Splide( '.splide', {
+            type  : 'fade',
+            autoplay: 'start',
+            perPage : 1,
+            })
+          splide.mount();
+        } );
     </script>
     <!-- -->
     <script src="../js/nav.js"></script>

@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>¿Qué es la parasitosis intestinal?</title>
-    <!--FAVICON--><link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <title>¿Qué tipos de parásitos existen?</title>
+    <!--FAVICON--><link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png">
     <!-- SLIDER --><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
     <!--FUENTE-->   <link rel="preconnect" href="https://fonts.googleapis.com">
                     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,7 +26,7 @@
             <div class="row justify-content-xl-center justify-content-sm-start">
                 <div class="col-md-1 col-2 sinNada">
                     <div class="logo text-center soloDesk">
-                        <a href="#home">
+                        <a href="../index.html">
                             <img src="../img/logo.png" alt="">
                         </a>
                     </div>
@@ -34,7 +34,7 @@
                 <!--LOGO-MOBILE-->
                 <div class="col-11  soloMob">
                     <div class="logo text-center">
-                        <a href="#home">
+                        <a href="../index.html">
                             <img src="../img/logo.png" alt="">
                         </a>
                     </div>
@@ -59,7 +59,7 @@
                             <li class="barNav">|</li>
                             <a href="../index.html#tratamiento" class="textNav js-btnsub"><li class="" id="js-trataOpen-menu">Tratamiento</li></a>
                             <li class="barNav">|</li>
-                            <a href="accionesView.html" class="textNav js-btnsub"><li class="">Acciones Sociales</li></a>
+                            <a href="accionesView.html#acciones" class="textNav js-btnsub"><li class="">Acciones Sociales</li></a>
                         </ul>
                     </div>
                 </div>
@@ -184,7 +184,7 @@
                 
             </div>
         </div>
-        <div class="container-fluid d-flex">
+        <div class="container-fluid d-flex justify-content-center">
             <div class="row sinNada justify-content-center align-self-center col-8 col-sm-4"> 
                 <div class="">
                     <div class="titu-slider">
@@ -327,20 +327,15 @@
         AOS.init();
     </script>
     <!-- SLIDER -->
-    <script src="../js/slider.js"></script>
+    
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
     <script>
-        var splide = new Splide( '.splide', {
-            type  : 'fade',
-            rewind: true,
-            autoplay: 'start',
-        })
-        splide.mount();
-        
-    </script>
-    <script>
         document.addEventListener( 'DOMContentLoaded', function() {
-          var splide = new Splide( '.splide' );
+            var splide = new Splide( '.splide', {
+            type  : 'fade',
+            autoplay: 'start',
+            perPage : 1,
+            })
           splide.mount();
         } );
     </script>

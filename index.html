@@ -59,7 +59,7 @@
                             <li class="barNav">|</li>
                             <a href="#tratamiento" class="textNav js-btnsub"><li class="" id="js-trataOpen-menu">Tratamiento</li></a>
                             <li class="barNav">|</li>
-                            <a href="./pages/accionesView.html" class="textNav js-btnsub"><li class="">Acciones Sociales</li></a>
+                            <a href="./pages/accionesView.html#acciones" class="textNav js-btnsub"><li class="">Acciones Sociales</li></a>
                         </ul>
                     </div>
                 </div>
@@ -184,7 +184,7 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid d-flex">
+        <div class="container-fluid d-flex justify-content-center">
             <div class="row sinNada justify-content-center align-self-center col-8 col-sm-4"> 
                 <div class="">
                     <div class="titu-slider">
@@ -192,38 +192,40 @@
                         <img class="img-mob-slider " src="img/titu-mob.png" alt="">
                     </div>
                     <div class="titu-slider">
-                        <img class="img-desk-slider" id="image-anima" src="./img/subTitu-slider.png" alt="">
+                        <img class="img-desk-slider" id="image-anima" src="../img/subTitu-slider.png" alt="">
                         <img class="img-mob-slider" src="./img/subTitu-slider.png" alt="">
                     </div>
                 </div>
             </div>       
             <div class="col-10 col-sm-6  align-self-center padSilder">
                 <section class="splide" aria-label="Splide Basic HTML Example">
-                    <div class="splide__track">
-                          <ul class="splide__list">
-                                <li class="splide__slide" data-splide-interval="4000">
-                                    <img class="imgDesk img-desk-slider d-block w-100" src="img/img-slider-01.webp"  alt="◌">
-                                    <img class="img-mob-slider" src="img/img-slider-01-mob.webp"  alt="◌">
-                                </li>
-                                <li class="splide__slide" data-splide-interval="6000">
-                                    <img class="imgDesk img-desk-slider d-block w-100" src="img/img-slider-02.webp"  alt="◌">
-                                    <img class="img-mob-slider" src="img/img-slider-02-mob.webp"  alt="◌">
-                                </li>
-                                <li class="splide__slide" data-splide-interval="6000">
-                                    <img class="imgDesk img-desk-slider d-block w-100" src="img/img-slider-03.webp"  alt="◌">
-                                    <img class="img-mob-slider" src="img/img-slider-03-mob.webp"  alt="◌">
-                                </li>
-                                <li class="splide__slide" data-splide-interval="6000">
-                                    <img class="imgDesk img-desk-slider d-block w-100" src="img/img-slider-04.webp"  alt="◌">
-                                    <img class="img-mob-slider" src="img/img-slider-04-mob.webp"  alt="◌">
-                                </li>
-                                <li class="splide__slide" data-splide-interval="6000">
-                                    <img class="imgDesk img-desk-slider d-block w-100" src="img/img-slider-05.webp"  alt="◌">
-                                    <img class="img-mob-slider" src="img/img-slider-05-mob.webp"  alt="◌">
-                                </li>
-                          </ul>
-                    </div>
-                  </section>
+                    <div class="splide__slider">
+                        <div class="splide__track">
+                            <ul class="splide__list">
+                                  <li class="splide__slide" data-splide-interval="4000">
+                                      <img class="imgDesk img-desk-slider d-block w-100" src="img/img-slider-01.webp"  alt="◌">
+                                      <img class="img-mob-slider" src="img/img-slider-01-mob.webp"  alt="◌">
+                                  </li>
+                                  <li class="splide__slide" data-splide-interval="6000">
+                                      <img class="imgDesk img-desk-slider d-block w-100" src="img/img-slider-02.webp"  alt="◌">
+                                      <img class="img-mob-slider" src="img/img-slider-02-mob.webp"  alt="◌">
+                                  </li>
+                                  <li class="splide__slide" data-splide-interval="6000">
+                                      <img class="imgDesk img-desk-slider d-block w-100" src="img/img-slider-03.webp"  alt="◌">
+                                      <img class="img-mob-slider" src="img/img-slider-03-mob.webp"  alt="◌">
+                                  </li>
+                                  <li class="splide__slide" data-splide-interval="6000">
+                                      <img class="imgDesk img-desk-slider d-block w-100" src="img/img-slider-04.webp"  alt="◌">
+                                      <img class="img-mob-slider" src="img/img-slider-04-mob.webp"  alt="◌">
+                                  </li>
+                                  <li class="splide__slide" data-splide-interval="6000">
+                                      <img class="imgDesk img-desk-slider d-block w-100" src="img/img-slider-05.webp"  alt="◌">
+                                      <img class="img-mob-slider" src="img/img-slider-05-mob.webp"  alt="◌">
+                                  </li>
+                            </ul>
+                      </div>
+                    </div> 
+                </section>
             </div>    
                                 
         </div>
@@ -950,20 +952,14 @@
         AOS.init();
     </script>
     <!-- SLIDER -->
-    <script src="./js/slider.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
     <script>
-        var splide = new Splide( '.splide', {
-            type  : 'fade',
-            rewind: true,
-            autoplay: 'start',
-        })
-        splide.mount();
-        
-    </script>
-    <script>
         document.addEventListener( 'DOMContentLoaded', function() {
-          var splide = new Splide( '.splide' );
+            var splide = new Splide( '.splide', {
+            type  : 'fade',
+            autoplay: 'start',
+            perPage : 1,
+            })
           splide.mount();
         } );
     </script>

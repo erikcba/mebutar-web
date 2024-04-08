@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Acciones Sociales</title>
-    <!--FAVICON--><link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <!--FAVICON--><link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png">
     <!-- SLIDER --><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
     <!--FUENTE-->   <link rel="preconnect" href="https://fonts.googleapis.com">
                     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,7 +28,7 @@
             <div class="row justify-content-xl-center justify-content-sm-start">
                 <div class="col-md-1 col-2 sinNada">
                     <div class="logo text-center soloDesk">
-                        <a href="#home">
+                        <a href="../index.html">
                             <img src="../img/logo.png" alt="">
                         </a>
                     </div>
@@ -184,14 +184,19 @@
                     <img class="img-desk-slider" id="image-anima" src="../img/img-titulo-sect.png" alt="">
                     <img class="img-mob-slider" src="../img/img-titulo-sect.png" alt="">
                 </div>
+                
             </div>
         </div>
-        <div class="container-fluid d-flex">
+        <div class="container-fluid d-flex justify-content-center">
             <div class="row sinNada justify-content-center align-self-center col-8 col-sm-4"> 
                 <div class="">
                     <div class="titu-slider">
                         <img class="img-desk-slider" id="image-anima" src="../img/img-slider-titu-01.png" alt="">
                         <img class="img-mob-slider " src="../img/titu-mob.png" alt="">
+                    </div>
+                    <div class="titu-slider">
+                        <img class="img-desk-slider" id="image-anima" src="../img/subTitu-slider.png" alt="">
+                        <img class="img-mob-slider" src="./img/subTitu-slider.png" alt="">
                     </div>
                 </div>
             </div>       
@@ -230,7 +235,14 @@
 
     <!--Sect05-->
     <a class="ancL" name="acciones" ></a>
-    <section class="container-fluid sect05 sinNada" data-aos="fade-up">
+    <section class="container-fluid sect05 sinNada masSect" data-aos="fade-up">
+        <div class="row sinNada justify-content-center align-items-center">
+            <div class="col-md-3 col-12 text-center">
+                <div class="btnVolver pointer">
+                    <a href="../index.html#home"><h5><i class="fa-solid fa-arrow sinNada-left"></i></i> volver</h5></a>
+                </div>
+            </div>
+        </div>
         <div class="modalVid" id="js-ModVid02">
             <div class="row sinNada justify-content-center m-0 p-o">
                 <div class="col-xl-6 col-lg-9 col-10">
@@ -380,20 +392,15 @@
         AOS.init();
     </script>
     <!-- SLIDER -->
-    <script src="../js/slider.js"></script>
+    
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
     <script>
-        var splide = new Splide( '.splide', {
-            type  : 'fade',
-            rewind: true,
-            autoplay: 'start',
-        })
-        splide.mount();
-        
-    </script>
-    <script>
         document.addEventListener( 'DOMContentLoaded', function() {
-          var splide = new Splide( '.splide' );
+            var splide = new Splide( '.splide', {
+            type  : 'fade',
+            autoplay: 'start',
+            perPage : 1,
+            })
           splide.mount();
         } );
     </script>

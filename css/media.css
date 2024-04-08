@@ -202,6 +202,7 @@
     .faqText{font-size: 1rem!important;line-height: 1.5rem!important;}
     .accordion-button::after{width: 1rem;background-size: 1rem;}
     .accordion-flush>.accordion-item>.accordion-header .accordion-button, .accordion-flush>.accordion-item>.accordion-header .accordion-button.collapsed{padding:20px 0;}
+    .splide__pagination li{display: none;}
 
 }
 @media  screen and (-webkit-min-device-pixel-ratio:0) and (max-width:415px){
